@@ -1,0 +1,24 @@
+2021-10-10 18:35:16,002 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user has been saved sucessfuly!
+2021-10-10 18:35:16,063 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Board - board has been saved sucessfuly!
+2021-10-10 18:35:32,343 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged in successfully!
+2021-10-10 18:36:12,223 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Column - Task has been added successfully!
+2021-10-10 18:36:17,767 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Column - Task has been added successfully!
+2021-10-10 18:36:17,782 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Board - task has been advanced successfully!
+2021-10-10 18:36:20,924 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Column - Task has been added successfully!
+2021-10-10 18:36:20,943 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Board - task has been advanced successfully!
+2021-10-10 18:36:22,833 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Controllers.BoardController - This task was already done!
+2021-10-10 18:36:32,500 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged out successfully!
+2021-10-10 18:36:51,719 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged in successfully!
+2021-10-10 18:36:56,261 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged out successfully!
+2021-10-10 18:38:30,728 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user tried to login with wrong details
+2021-10-10 18:38:41,796 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user tried to login with wrong details
+2021-10-10 18:38:58,356 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user has been saved sucessfuly!
+2021-10-10 18:38:58,402 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Board - board has been saved sucessfuly!
+2021-10-10 18:39:07,980 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user tried to login with wrong details
+2021-10-10 18:39:09,269 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user tried to login with wrong details
+2021-10-10 18:39:56,102 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Controllers.UserController - new user tried to register with invalid email.
+2021-10-10 18:40:01,545 [1] ERROR IntroSE.Kanban.Backend.BusinessLayer.Controllers.UserController - new user tried to register with exist email
+2021-10-10 18:40:09,614 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user has been saved sucessfuly!
+2021-10-10 18:40:09,670 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.Board - board has been saved sucessfuly!
+2021-10-10 18:40:25,327 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged in successfully!
+2021-10-10 18:40:28,845 [1] INFO IntroSE.Kanban.Backend.BusinessLayer.Objects.User - user logged out successfully!

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Presentation.View.UpdateTitleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation.View"
+        mc:Ignorable="d"
+        Title="UpdateTitleWindow" Height="220" Width="350" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="New title:" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Height="26" Width="67" FontWeight="Bold"/>
+        <TextBox Name="TitleBox" MaxLength="50" Text="{Binding Path=Title}" HorizontalAlignment="Left" Height="50" Margin="120,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" TextChanged="TextBox_TextChanged"/>
+        <Button Name="Submit" Content="Submit!" Height="30" HorizontalAlignment="Left" Margin="80,130,0,0" VerticalAlignment="Top" Width="80" Click="Submit_Click"/>
+        <Button Name="Canel" Content="Cancel" Height="30" HorizontalAlignment="Left" Margin="200,130,0,0" VerticalAlignment="Top" Width="80" Click="Canel_Click"/>
+        <TextBlock  Name="titleOutput" HorizontalAlignment="Left" Margin="240,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

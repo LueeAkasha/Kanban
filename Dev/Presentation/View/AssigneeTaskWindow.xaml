@@ -1,0 +1,16 @@
+﻿<Window x:Class="Presentation.View.AssigneeTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation.View"
+        mc:Ignorable="d"
+        Title="AssigneeTaskWindow" Height="263.702" Width="377.55">
+    <Grid>
+        <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="189,153,0,0" VerticalAlignment="Top" Width="75" Click="Cancel_Click"/>
+        <Button Name="AssigneeTask" Content="Assignee!" HorizontalAlignment="Left" Margin="83,152,0,0" VerticalAlignment="Top" Width="75" Click="AssigneeTask_Click"/>
+        <Label Content="Email to Assignee: " HorizontalAlignment="Left" Margin="39,93,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding Path=EmailAssignee, Mode=OneWayToSource}" Height="23" Margin="148,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="203"/>
+
+    </Grid>
+</Window>
