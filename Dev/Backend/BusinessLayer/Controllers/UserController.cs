@@ -16,15 +16,23 @@ namespace IntroSE.Kanban.Backend.BusinessLayer.Controllers
     = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         private Dictionary<string, User> users;//saving all users here
-
+        private static UserController instance;
         /// <summary>
         /// user controller constructor.
         /// </summary>
-        public UserController()
+        private UserController()
         {
             this.users = new Dictionary<string, User>();
         }
 
+        public static UserController getInstance()
+        {
+            if(instance == null)
+            {
+                instance = new UserController();
+            }
+            return instance;
+        }
 
         /// <summary>
         /// getting a specific user from the system

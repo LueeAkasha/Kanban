@@ -18,16 +18,26 @@ namespace IntroSE.Kanban.Backend.BusinessLayer.Controllers
         
 
         private Dictionary<string, Board> boards;//saving all boards here.
-       
+        private static BoardController instance;
 
         /// <summary>
         /// board controller constructor.
         /// </summary>
-        public BoardController()
+        private BoardController()
         {
             this.boards = new Dictionary<string, Board>();
 
             
+        }
+
+
+        public static BoardController getInstance()
+        {
+            if (instance == null)
+            {
+                instance = new BoardController();
+            }
+            return instance;
         }
 
         /// <summary>
